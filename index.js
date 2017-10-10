@@ -175,7 +175,7 @@ function moveDodgerRight() {
    var leftNumber = DODGER.style.left.replace('px', '')
    var left = parseInt(leftNumber, 10)
 
-if(DODGER.style.right < leftNumber)
+if(leftNumber < DODGER.style.right )
    {
      DODGER.style.left = `${left +4}px`
    }
