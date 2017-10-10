@@ -177,7 +177,7 @@ function moveDodgerRight() {
 
 if(left < GAME_WIDTH )
    {
-     DODGER.style.left = `${left +4}px`
+     DODGER.style.left = `${left + 4}px`
    }
 }
 
